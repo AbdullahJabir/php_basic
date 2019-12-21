@@ -19,6 +19,7 @@ class person{
 	}
 }
 
+/*entexds from super class named by person*/
 class Admin extends person{
 	public $level="Administrator";
 	public function display()

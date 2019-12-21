@@ -13,7 +13,7 @@ class person{
 		$this->name=$name;
 		$this->age=$age;
 	}
-	public final  function display()
+	public final  function display() /*ovverrid access/we can not take display name again*/
 	{
 		echo "Person name is $this->name and Age is {$this->age}";
 	}
