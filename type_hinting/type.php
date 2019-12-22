@@ -1,5 +1,6 @@
 <?php
 class PHP{
+	
 public function getvalue($x)
 {
 	foreach ($X as $value) {
